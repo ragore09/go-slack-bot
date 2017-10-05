@@ -7,6 +7,8 @@ import (
 	"net/http"
 )
 
+const slackAPI = "https://api.slack.com/"
+
 type rtmStartResponse struct {
 	Ok    bool         `json:"ok"`
 	URL   string       `json:"url"`
